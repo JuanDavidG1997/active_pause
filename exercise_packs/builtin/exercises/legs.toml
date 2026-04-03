@@ -1,0 +1,118 @@
+[[exercise]]
+id = "legs_calf_raises"
+name = "Calf Raises"
+muscle_groups = ["legs"]
+intensity = 1
+duration_seconds = 30
+rest_seconds = 5
+reps = 15
+contraindications = ["knee_injury_acute"]
+animation_ref = "legs_calf_raises"
+research_source = "https://www.cdc.gov/niosh/topics/ergonomics/"
+verbal_cue = "Stand behind chair for support, rise onto toes 15 times to activate your calves and improve circulation"
+
+[[exercise.phases]]
+name = "inhale"
+duration_seconds = 3
+cue = "Stand tall behind chair, lightly hold the back for balance, breathe in"
+
+[[exercise.phases]]
+name = "move"
+duration_seconds = 20
+cue = "Rise onto toes slowly, pause at top, lower slowly — 15 repetitions"
+
+[[exercise.phases]]
+name = "rest"
+duration_seconds = 5
+cue = "Lower heels, stand flat, let legs relax"
+
+
+[[exercise]]
+id = "legs_standing_hip_flexor_stretch"
+name = "Standing Hip Flexor Stretch"
+muscle_groups = ["legs", "hips"]
+intensity = 2
+duration_seconds = 60
+rest_seconds = 10
+hold_seconds = 20
+bilateral = true
+contraindications = ["hip_replacement", "knee_replacement"]
+animation_ref = "legs_standing_hip_flexor_stretch"
+research_source = "https://www.cdc.gov/niosh/topics/ergonomics/"
+verbal_cue = "Step one foot forward into a lunge, keep back knee soft, tuck pelvis and hold 20s each side"
+
+[[exercise.phases]]
+name = "inhale"
+duration_seconds = 3
+cue = "Stand tall, step your right foot forward into a lunge position"
+
+[[exercise.phases]]
+name = "exhale"
+duration_seconds = 2
+cue = "Tuck your pelvis under slightly, feel the stretch in the left hip flexor"
+
+[[exercise.phases]]
+name = "hold"
+duration_seconds = 20
+cue = "Hold, breathe naturally, keep your back knee slightly bent and torso upright"
+
+[[exercise.phases]]
+name = "move"
+duration_seconds = 3
+cue = "Step back to standing, then step left foot forward into lunge"
+
+[[exercise.phases]]
+name = "hold"
+duration_seconds = 20
+cue = "Hold the right hip flexor stretch, breathe naturally"
+
+[[exercise.phases]]
+name = "rest"
+duration_seconds = 5
+cue = "Step back to standing, shake out your legs gently"
+
+
+[[exercise]]
+id = "legs_seated_leg_extension"
+name = "Seated Leg Extension"
+muscle_groups = ["legs"]
+intensity = 1
+duration_seconds = 60
+rest_seconds = 10
+reps = 10
+hold_seconds = 5
+bilateral = true
+contraindications = ["knee_injury_acute"]
+animation_ref = "legs_seated_leg_extension"
+research_source = "https://www.cdc.gov/niosh/topics/ergonomics/"
+verbal_cue = "Sit tall, extend one leg parallel to floor, hold 5s, lower it, repeat 10 times each leg"
+
+[[exercise.phases]]
+name = "inhale"
+duration_seconds = 3
+cue = "Sit tall with feet flat on floor, breathe in"
+
+[[exercise.phases]]
+name = "move"
+duration_seconds = 2
+cue = "Straighten your right leg until it is parallel to the floor"
+
+[[exercise.phases]]
+name = "hold"
+duration_seconds = 5
+cue = "Hold, flex your foot, feel your quadriceps engage"
+
+[[exercise.phases]]
+name = "move"
+duration_seconds = 2
+cue = "Slowly lower the right leg, then extend the left leg"
+
+[[exercise.phases]]
+name = "hold"
+duration_seconds = 5
+cue = "Hold the left leg extension, flex your foot"
+
+[[exercise.phases]]
+name = "rest"
+duration_seconds = 5
+cue = "Lower leg, plant both feet flat and relax before the next set"

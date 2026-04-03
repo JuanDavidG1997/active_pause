@@ -1,13 +1,20 @@
-from alembic import context
+from __future__ import annotations
 
-from active_pauses.db.engine import get_engine
+from alembic import context
+from sqlalchemy import engine_from_config, pool
+
 from active_pauses.db.models import Base
 
 target_metadata = Base.metadata
 
 
 def run_migrations_online() -> None:
-    connectable = get_engine()
+    """Run migrations in 'online' mode with an active connection."""
+    connectable = engine_from_config(
+        context.config.get_section(context.config.config_ini_section, {}),
+        prefix="sqlalchemy.",
+        poolclass=pool.NullPool,
+    )
     with connectable.connect() as connection:
         context.configure(
             connection=connection,
@@ -19,7 +26,8 @@ def run_migrations_online() -> None:
 
 
 def run_migrations_offline() -> None:
-    url = "sqlite:///active_pauses.db"
+    """Run migrations in 'offline' mode."""
+    url = context.config.get_main_option("sqlalchemy.url")
     context.configure(
         url=url,
         target_metadata=target_metadata,

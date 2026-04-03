@@ -1,0 +1,6 @@
+id = "builtin"
+name = "Built-in Exercise Pack"
+version = "1.0.0"
+author = "active-pauses project"
+description = "20 research-backed exercises for desk workers"
+license = "MIT"

@@ -1,0 +1,117 @@
+[[exercise]]
+id = "wrist_circles"
+name = "Wrist Circles"
+muscle_groups = ["wrists"]
+intensity = 1
+duration_seconds = 30
+rest_seconds = 5
+reps = 10
+bilateral = true
+contraindications = ["wrist_fracture_healing"]
+animation_ref = "wrist_circles"
+research_source = "https://www.cdc.gov/niosh/topics/ergonomics/"
+verbal_cue = "Extend arms, make slow circles with wrists 10 times clockwise then 10 times counter-clockwise"
+
+[[exercise.phases]]
+name = "move"
+duration_seconds = 10
+cue = "Make slow, full circles with both wrists in the clockwise direction"
+
+[[exercise.phases]]
+name = "rest"
+duration_seconds = 2
+cue = "Pause and shake out your wrists gently"
+
+[[exercise.phases]]
+name = "move"
+duration_seconds = 10
+cue = "Make slow, full circles with both wrists counter-clockwise"
+
+[[exercise.phases]]
+name = "rest"
+duration_seconds = 3
+cue = "Lower arms and relax"
+
+
+[[exercise]]
+id = "wrist_prayer_stretch"
+name = "Prayer Stretch"
+muscle_groups = ["wrists"]
+intensity = 1
+duration_seconds = 45
+rest_seconds = 10
+hold_seconds = 15
+animation_ref = "wrist_prayer_stretch"
+research_source = "https://www.cdc.gov/niosh/topics/ergonomics/"
+contraindications = ["carpal_tunnel_severe", "wrist_fracture_healing"]
+verbal_cue = "Press palms together at chest (prayer), hold 15s, then flip hands down (reverse prayer), hold 15s"
+
+[[exercise.phases]]
+name = "inhale"
+duration_seconds = 3
+cue = "Press palms together in front of chest, fingers pointing up"
+
+[[exercise.phases]]
+name = "hold"
+duration_seconds = 15
+cue = "Hold the prayer position, feel the stretch in your wrists and forearms"
+
+[[exercise.phases]]
+name = "move"
+duration_seconds = 3
+cue = "Slowly flip hands so fingers point downward (reverse prayer)"
+
+[[exercise.phases]]
+name = "hold"
+duration_seconds = 15
+cue = "Hold reverse prayer, feel the stretch on top of wrists and forearms"
+
+[[exercise.phases]]
+name = "rest"
+duration_seconds = 4
+cue = "Release and gently shake out your hands"
+
+
+[[exercise]]
+id = "wrist_flexor_stretch"
+name = "Wrist Flexor Stretch"
+muscle_groups = ["wrists"]
+intensity = 1
+duration_seconds = 60
+rest_seconds = 10
+hold_seconds = 20
+bilateral = true
+contraindications = ["carpal_tunnel_severe", "wrist_fracture_healing"]
+animation_ref = "wrist_flexor_stretch"
+research_source = "https://www.cdc.gov/niosh/topics/ergonomics/"
+verbal_cue = "Extend arm with palm forward, gently pull fingers back with other hand, hold 20s each side"
+
+[[exercise.phases]]
+name = "inhale"
+duration_seconds = 3
+cue = "Extend your right arm in front, palm facing away from you"
+
+[[exercise.phases]]
+name = "move"
+duration_seconds = 2
+cue = "Use left hand to gently pull right fingers back toward you"
+
+[[exercise.phases]]
+name = "hold"
+duration_seconds = 20
+cue = "Hold, feel the stretch along your right forearm and wrist"
+
+[[exercise.phases]]
+name = "move"
+duration_seconds = 2
+cue = "Switch arms — extend left arm, pull fingers back with right hand"
+
+[[exercise.phases]]
+name = "hold"
+duration_seconds = 20
+cue = "Hold, feel the stretch along your left forearm and wrist"
+
+[[exercise.phases]]
+name = "rest"
+duration_seconds = 5
+cue = "Lower both arms and relax your hands"

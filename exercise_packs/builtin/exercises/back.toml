@@ -1,0 +1,138 @@
+[[exercise]]
+id = "back_cat_cow"
+name = "Cat-Cow Stretch"
+muscle_groups = ["back", "neck"]
+intensity = 1
+duration_seconds = 60
+rest_seconds = 10
+reps = 10
+hold_seconds = 2
+contraindications = ["spinal_surgery", "herniated_disc_acute"]
+animation_ref = "back_cat_cow"
+research_source = "doi:10.1097/00007632-199706150-00011"
+verbal_cue = "On hands and knees, arch your back up like a cat, then dip it down like a cow"
+
+[[exercise.phases]]
+name = "inhale"
+duration_seconds = 3
+cue = "Breathe in — drop belly down, lift head (Cow)"
+
+[[exercise.phases]]
+name = "exhale"
+duration_seconds = 3
+cue = "Breathe out — round spine up, tuck chin (Cat)"
+
+
+[[exercise]]
+id = "back_seated_forward_fold"
+name = "Seated Forward Fold"
+muscle_groups = ["back", "legs"]
+intensity = 1
+duration_seconds = 45
+rest_seconds = 10
+hold_seconds = 20
+bilateral = false
+contraindications = ["herniated_disc_acute", "spinal_surgery"]
+animation_ref = "back_seated_forward_fold"
+research_source = "https://www.cdc.gov/niosh/topics/ergonomics/"
+verbal_cue = "Sit at edge of chair, hinge forward from hips, let arms hang toward floor"
+
+[[exercise.phases]]
+name = "inhale"
+duration_seconds = 3
+cue = "Sit tall, breathe in"
+
+[[exercise.phases]]
+name = "exhale"
+duration_seconds = 5
+cue = "Hinge forward slowly as you exhale"
+
+[[exercise.phases]]
+name = "hold"
+duration_seconds = 20
+cue = "Breathe naturally, feel the stretch along your spine"
+
+[[exercise.phases]]
+name = "inhale"
+duration_seconds = 4
+cue = "Slowly roll back up, stacking vertebrae"
+
+
+[[exercise]]
+id = "back_thoracic_extension"
+name = "Thoracic Extension (Chair Back)"
+muscle_groups = ["back"]
+intensity = 1
+duration_seconds = 45
+rest_seconds = 10
+reps = 3
+hold_seconds = 10
+contraindications = ["osteoporosis_severe"]
+animation_ref = "back_thoracic_extension"
+research_source = "https://www.cdc.gov/niosh/topics/ergonomics/"
+verbal_cue = "Sit in chair, clasp hands behind head, gently arch back over chair back to open chest"
+
+[[exercise.phases]]
+name = "inhale"
+duration_seconds = 3
+cue = "Sit tall, clasp hands behind head, breathe in"
+
+[[exercise.phases]]
+name = "exhale"
+duration_seconds = 2
+cue = "Gently arch back over chair back, lifting chest toward ceiling"
+
+[[exercise.phases]]
+name = "hold"
+duration_seconds = 10
+cue = "Hold gently, breathing naturally, feel the thoracic stretch"
+
+[[exercise.phases]]
+name = "rest"
+duration_seconds = 3
+cue = "Return to upright, relax before next rep"
+
+
+[[exercise]]
+id = "back_seated_spinal_twist"
+name = "Seated Spinal Twist"
+muscle_groups = ["back"]
+intensity = 1
+duration_seconds = 60
+rest_seconds = 10
+hold_seconds = 15
+bilateral = true
+contraindications = ["spinal_surgery", "herniated_disc_acute"]
+animation_ref = "back_seated_spinal_twist"
+research_source = "https://www.cdc.gov/niosh/topics/ergonomics/"
+verbal_cue = "Sit tall, twist torso to one side, hold 15s, then switch sides"
+
+[[exercise.phases]]
+name = "inhale"
+duration_seconds = 3
+cue = "Sit tall, lengthen your spine, breathe in"
+
+[[exercise.phases]]
+name = "exhale"
+duration_seconds = 2
+cue = "Rotate torso to the right, place left hand on right knee"
+
+[[exercise.phases]]
+name = "hold"
+duration_seconds = 15
+cue = "Hold the twist, breathe naturally, grow taller with each inhale"
+
+[[exercise.phases]]
+name = "move"
+duration_seconds = 2
+cue = "Return to center, then rotate to the left"
+
+[[exercise.phases]]
+name = "hold"
+duration_seconds = 15
+cue = "Hold the left twist, breathe naturally"
+
+[[exercise.phases]]
+name = "rest"
+duration_seconds = 3
+cue = "Return to center and relax"
