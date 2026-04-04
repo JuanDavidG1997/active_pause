@@ -1,0 +1,4 @@
+# file: /home/nechepso/active_pause/.worktrees/phase-1/src/active_pauses/config/schema.py
+# hypothesis_version: 6.151.10
+
+[480, '09:00', '18:00', ':', 'back', 'critical', 'end', 'eyes', 'fullbody', 'interval_minutes', 'legs', 'low', 'neck', 'normal', 'snooze_minutes', 'start', 'urgency', 'wrists']

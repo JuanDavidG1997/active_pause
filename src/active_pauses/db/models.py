@@ -88,7 +88,7 @@ class WorkSession(Base):
     __tablename__ = "work_sessions"
 
     id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
-    started_at: Mapped[datetime] = mapped_column(DateTime, nullable=False, index=True)
+    started_at: Mapped[datetime] = mapped_column(DateTime, nullable=False)
     ended_at: Mapped[datetime | None] = mapped_column(DateTime, nullable=True)
     daemon_version: Mapped[str] = mapped_column(String(32), nullable=False)
 
@@ -136,7 +136,7 @@ class PostureEvent(Base):
     id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
     session_id: Mapped[int] = mapped_column(ForeignKey("work_sessions.id"), nullable=False)
     state: Mapped[PostureStateEnum] = mapped_column(Enum(PostureStateEnum), nullable=False)
-    started_at: Mapped[datetime] = mapped_column(DateTime, nullable=False, index=True)
+    started_at: Mapped[datetime] = mapped_column(DateTime, nullable=False)
     ended_at: Mapped[datetime | None] = mapped_column(DateTime, nullable=True)
     duration_minutes: Mapped[float | None] = mapped_column(Float, nullable=True)
 
