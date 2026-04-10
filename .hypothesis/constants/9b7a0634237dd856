@@ -1,0 +1,4 @@
+# file: /home/nechepso/active_pause/.worktrees/phase-1/src/active_pauses/db/repositories/exercise_log_repo.py
+# hypothesis_version: 6.151.10
+
+['builtin', 'completed', 'scheduled', 'skipped', 'snoozed']

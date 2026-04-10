@@ -1,0 +1,85 @@
+name: Exercise Pack Submission
+description: Submit a new community exercise pack for inclusion
+labels: ["exercise-pack", "content"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing an exercise pack! Please fill out all fields.
+        All exercises must be research-backed and safe for desk workers.
+
+  - type: input
+    id: pack_name
+    attributes:
+      label: Pack name
+      placeholder: "e.g. Office Yoga Breaks"
+    validations:
+      required: true
+
+  - type: input
+    id: pack_id
+    attributes:
+      label: Pack ID (slug)
+      description: Unique identifier, lowercase with underscores
+      placeholder: "e.g. office_yoga_breaks"
+    validations:
+      required: true
+
+  - type: input
+    id: muscle_groups
+    attributes:
+      label: Target muscle groups
+      placeholder: "e.g. back, neck, wrists"
+    validations:
+      required: true
+
+  - type: input
+    id: exercise_count
+    attributes:
+      label: Number of exercises
+      placeholder: "e.g. 10"
+    validations:
+      required: true
+
+  - type: textarea
+    id: research
+    attributes:
+      label: Research sources
+      description: List DOI or URL for each exercise's research backing
+    validations:
+      required: true
+
+  - type: textarea
+    id: contraindications
+    attributes:
+      label: Contraindications covered
+      description: What health conditions have you added contraindications for?
+    validations:
+      required: true
+
+  - type: input
+    id: license
+    attributes:
+      label: License
+      description: License for the pack content (must be MIT-compatible)
+      placeholder: "e.g. MIT, CC-BY-4.0, CC0"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Submission checklist
+      options:
+        - label: All exercises have `research_source` with valid citation
+          required: true
+        - label: All verbal cues are ≤120 characters
+          required: true
+        - label: No `exec`, `import`, `script`, or `shell` keys in TOML
+          required: true
+        - label: Pack loads cleanly with `active-pauses list-exercises`
+          required: true
+        - label: Contraindications are conservative (safety first)
+          required: true
+        - label: Exercise IDs are globally unique (not duplicating builtin pack)
+          required: true

@@ -1,0 +1,96 @@
+[[exercise]]
+id = "eyes_20_20_20"
+name = "20-20-20 Rule"
+muscle_groups = ["eyes"]
+intensity = 1
+duration_seconds = 25
+rest_seconds = 5
+animation_ref = "eyes_20_20_20"
+research_source = "doi:10.1097/OPX.0000000000000467"
+verbal_cue = "Look at an object at least 20 feet away and focus on it for 20 seconds to rest your eyes"
+
+[[exercise.phases]]
+name = "move"
+duration_seconds = 3
+cue = "Find an object at least 20 feet away — a window, a wall, or something distant"
+
+[[exercise.phases]]
+name = "hold"
+duration_seconds = 20
+cue = "Keep your gaze on that distant object, blink naturally, let your eye muscles relax"
+
+[[exercise.phases]]
+name = "rest"
+duration_seconds = 2
+cue = "Blink a few times and return your gaze to normal distance"
+
+
+[[exercise]]
+id = "eyes_palming"
+name = "Eye Palming"
+muscle_groups = ["eyes"]
+intensity = 1
+duration_seconds = 30
+rest_seconds = 5
+contraindications = ["glaucoma"]
+animation_ref = "eyes_palming"
+research_source = "https://www.cdc.gov/niosh/topics/ergonomics/"
+verbal_cue = "Cup warm hands over closed eyes and breathe deeply to rest your eyes in complete darkness"
+
+[[exercise.phases]]
+name = "inhale"
+duration_seconds = 3
+cue = "Rub your palms together to warm them, then close your eyes"
+
+[[exercise.phases]]
+name = "move"
+duration_seconds = 2
+cue = "Cup your warm palms gently over your closed eyes without pressing"
+
+[[exercise.phases]]
+name = "hold"
+duration_seconds = 20
+cue = "Breathe deeply, enjoy the darkness, let your eye muscles fully relax"
+
+[[exercise.phases]]
+name = "rest"
+duration_seconds = 5
+cue = "Slowly uncover your eyes and let them adjust to the light"
+
+
+[[exercise]]
+id = "eyes_figure_eight"
+name = "Eye Figure-8"
+muscle_groups = ["eyes"]
+intensity = 1
+duration_seconds = 30
+rest_seconds = 5
+reps = 4
+animation_ref = "eyes_figure_eight"
+research_source = "https://www.cdc.gov/niosh/topics/ergonomics/"
+verbal_cue = "Trace a figure-8 pattern with your eyes without moving your head to exercise eye muscles"
+
+[[exercise.phases]]
+name = "inhale"
+duration_seconds = 3
+cue = "Sit tall, keep your head still, take a breath and relax your eyes"
+
+[[exercise.phases]]
+name = "move"
+duration_seconds = 10
+cue = "Trace a large figure-8 slowly with your eyes — up, over, down, cross, up the other side"
+
+[[exercise.phases]]
+name = "rest"
+duration_seconds = 3
+cue = "Blink a few times and relax"
+
+[[exercise.phases]]
+name = "move"
+duration_seconds = 10
+cue = "Trace the figure-8 in the opposite direction, keeping your head still"
+
+[[exercise.phases]]
+name = "rest"
+duration_seconds = 4
+cue = "Blink and let your eyes relax before returning to work"

@@ -1,0 +1,4 @@
+# file: /home/nechepso/active_pause/.worktrees/phase-1/src/active_pauses/db/models.py
+# hypothesis_version: 6.151.10
+
+[0.0, 128, 256, 512, 'a', 'back', 'badge_id', 'badges', 'builtin', 'calendar_accounts', 'casual_default', 'daily_stats', 'desk_worker', 'exercise_log', 'exercise_logs', 'eyes', 'fullbody', 'gamer', 'hips', 'id', 'installed_packs', 'ix_user_profile_id', 'legs', 'masc', 'medium', 'muscle_group', 'neck', 'outcome', 'postpartum', 'posture_events', 'programmer', 's1', 'scheduled_at', 'senior', 'session', 'session_id', 'shoulders', 'sitting', 'standing', 'started_at', 'stat_date', 'state', 'streak', 'unknown', 'uq_badges_badge_id', 'user_profile', 'work_sessions', 'work_sessions.id', 'wrists', '{}']

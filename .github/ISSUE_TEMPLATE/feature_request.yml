@@ -1,0 +1,58 @@
+name: Feature Request
+description: Suggest a new feature for active-pauses
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting a new feature! Please describe it clearly.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem this feature solves
+      description: What problem or limitation are you trying to address?
+      placeholder: "I find myself having to... because..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: How would you like this feature to work?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Have you considered any workarounds or alternative approaches?
+
+  - type: dropdown
+    id: phase
+    attributes:
+      label: Which area does this affect?
+      options:
+        - Scheduling / timers
+        - Exercise library / content
+        - Notifications
+        - CLI
+        - Web UI
+        - Gamification / analytics
+        - Accessibility
+        - Packaging / installation
+        - Other
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I have searched existing issues for this request
+          required: true
+        - label: This feature respects the offline-first, no-root, privacy-first principles of active-pauses
+          required: false

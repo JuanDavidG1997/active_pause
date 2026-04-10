@@ -1,0 +1,160 @@
+[[exercise]]
+id = "neck_side_tilt"
+name = "Neck Side Tilt"
+muscle_groups = ["neck"]
+intensity = 1
+duration_seconds = 60
+rest_seconds = 10
+hold_seconds = 15
+bilateral = true
+contraindications = ["neck_surgery"]
+animation_ref = "neck_side_tilt"
+research_source = "https://www.cdc.gov/niosh/topics/ergonomics/"
+verbal_cue = "Gently tilt your right ear toward your right shoulder, hold, then switch sides"
+
+[[exercise.phases]]
+name = "inhale"
+duration_seconds = 3
+cue = "Sit tall, relax your shoulders, breathe in"
+
+[[exercise.phases]]
+name = "exhale"
+duration_seconds = 2
+cue = "Slowly tilt right ear toward right shoulder, keep left shoulder down"
+
+[[exercise.phases]]
+name = "hold"
+duration_seconds = 15
+cue = "Hold gently, breathe naturally, feel the stretch along the left side of neck"
+
+[[exercise.phases]]
+name = "move"
+duration_seconds = 2
+cue = "Slowly bring head back to center, then tilt left ear toward left shoulder"
+
+[[exercise.phases]]
+name = "hold"
+duration_seconds = 15
+cue = "Hold gently, breathe naturally, feel the stretch along the right side of neck"
+
+[[exercise.phases]]
+name = "rest"
+duration_seconds = 3
+cue = "Return to center and relax"
+
+
+[[exercise]]
+id = "neck_chin_tucks"
+name = "Chin Tucks"
+muscle_groups = ["neck"]
+intensity = 1
+duration_seconds = 60
+rest_seconds = 10
+reps = 10
+hold_seconds = 5
+animation_ref = "neck_chin_tucks"
+research_source = "doi:10.1016/j.jmpt.2009.07.014"
+verbal_cue = "Gently pull chin straight back to make a double chin, hold 5s — great for forward head posture"
+
+[[exercise.phases]]
+name = "inhale"
+duration_seconds = 3
+cue = "Sit tall, look straight ahead, breathe in"
+
+[[exercise.phases]]
+name = "move"
+duration_seconds = 2
+cue = "Gently retract chin straight back, creating a double chin"
+
+[[exercise.phases]]
+name = "hold"
+duration_seconds = 5
+cue = "Hold the retraction, keep breathing, feel the back of your neck lengthen"
+
+[[exercise.phases]]
+name = "rest"
+duration_seconds = 2
+cue = "Release and return to neutral before next rep"
+
+
+[[exercise]]
+id = "neck_rotation"
+name = "Neck Rotation"
+muscle_groups = ["neck"]
+intensity = 1
+duration_seconds = 60
+rest_seconds = 10
+hold_seconds = 5
+bilateral = true
+contraindications = ["neck_surgery", "vertigo"]
+animation_ref = "neck_rotation"
+research_source = "https://www.cdc.gov/niosh/topics/ergonomics/"
+verbal_cue = "Slowly turn head to look left, hold 5s, return to center, then look right, hold 5s"
+
+[[exercise.phases]]
+name = "inhale"
+duration_seconds = 3
+cue = "Sit tall, relax your jaw and shoulders, breathe in"
+
+[[exercise.phases]]
+name = "exhale"
+duration_seconds = 2
+cue = "Slowly rotate head to look over your left shoulder"
+
+[[exercise.phases]]
+name = "hold"
+duration_seconds = 5
+cue = "Hold, breathe naturally, feel the stretch on the right side of your neck"
+
+[[exercise.phases]]
+name = "move"
+duration_seconds = 2
+cue = "Return to center slowly"
+
+[[exercise.phases]]
+name = "exhale"
+duration_seconds = 2
+cue = "Slowly rotate head to look over your right shoulder"
+
+[[exercise.phases]]
+name = "hold"
+duration_seconds = 5
+cue = "Hold, breathe naturally, feel the stretch on the left side of your neck"
+
+[[exercise.phases]]
+name = "rest"
+duration_seconds = 3
+cue = "Return to center and relax"
+
+
+[[exercise]]
+id = "neck_shoulder_rolls"
+name = "Shoulder Rolls"
+muscle_groups = ["neck", "shoulders"]
+intensity = 1
+duration_seconds = 30
+rest_seconds = 5
+reps = 10
+animation_ref = "neck_shoulder_rolls"
+research_source = "https://www.cdc.gov/niosh/topics/ergonomics/"
+verbal_cue = "Roll shoulders backward 5 times then forward 5 times in smooth, controlled circles"
+
+[[exercise.phases]]
+name = "move"
+duration_seconds = 10
+cue = "Roll both shoulders backward in slow, large circles 5 times"
+
+[[exercise.phases]]
+name = "rest"
+duration_seconds = 2
+cue = "Pause at the top, take a breath"
+
+[[exercise.phases]]
+name = "move"
+duration_seconds = 10
+cue = "Roll both shoulders forward in slow, large circles 5 times"
+
+[[exercise.phases]]
+name = "rest"
+duration_seconds = 3
+cue = "Let shoulders drop and relax"

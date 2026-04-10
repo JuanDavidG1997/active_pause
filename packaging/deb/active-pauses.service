@@ -1,0 +1,20 @@
+[Unit]
+Description=active-pauses health companion daemon
+Documentation=https://github.com/active-pauses/active-pauses
+After=graphical-session.target
+PartOf=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=%h/.local/bin/active-pauses start --foreground
+Restart=on-failure
+RestartSec=10
+Environment=PYTHONUNBUFFERED=1
+
+# Logging to journald
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=active-pauses
+
+[Install]
+WantedBy=graphical-session.target

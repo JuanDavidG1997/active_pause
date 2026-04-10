@@ -1,0 +1,113 @@
+[[exercise]]
+id = "fullbody_standing_desk_stretch"
+name = "Standing Desk Stretch"
+muscle_groups = ["fullbody", "back", "shoulders"]
+intensity = 1
+duration_seconds = 45
+rest_seconds = 10
+hold_seconds = 10
+animation_ref = "fullbody_standing_desk_stretch"
+research_source = "https://www.cdc.gov/niosh/topics/ergonomics/"
+verbal_cue = "Reach arms overhead, interlace fingers, stretch tall, hold 10s, then bend gently side to side"
+
+[[exercise.phases]]
+name = "inhale"
+duration_seconds = 3
+cue = "Stand tall, reach both arms overhead and interlace your fingers"
+
+[[exercise.phases]]
+name = "hold"
+duration_seconds = 10
+cue = "Press palms toward ceiling, feel the full body stretch from feet to fingertips"
+
+[[exercise.phases]]
+name = "exhale"
+duration_seconds = 3
+cue = "Lean gently to the left, feeling a stretch along your right side"
+
+[[exercise.phases]]
+name = "hold"
+duration_seconds = 5
+cue = "Hold the side bend, keep hips level"
+
+[[exercise.phases]]
+name = "inhale"
+duration_seconds = 2
+cue = "Return to center"
+
+[[exercise.phases]]
+name = "exhale"
+duration_seconds = 3
+cue = "Lean gently to the right, feeling a stretch along your left side"
+
+[[exercise.phases]]
+name = "hold"
+duration_seconds = 5
+cue = "Hold the right side bend, breathe naturally"
+
+[[exercise.phases]]
+name = "rest"
+duration_seconds = 5
+cue = "Return to center, lower arms, and relax"
+
+
+[[exercise]]
+id = "fullbody_chair_stand"
+name = "Chair Stand"
+muscle_groups = ["legs", "fullbody"]
+intensity = 2
+duration_seconds = 60
+rest_seconds = 15
+reps = 10
+contraindications = ["knee_replacement", "hip_replacement"]
+animation_ref = "fullbody_chair_stand"
+research_source = "doi:10.1093/geronj/30.5.562"
+verbal_cue = "From seated, stand up fully and sit back down 10 times without using your hands"
+
+[[exercise.phases]]
+name = "inhale"
+duration_seconds = 3
+cue = "Sit at the edge of your chair, feet flat, arms crossed at chest"
+
+[[exercise.phases]]
+name = "move"
+duration_seconds = 40
+cue = "Stand up fully, pause for a moment, sit back down — 10 controlled repetitions"
+
+[[exercise.phases]]
+name = "rest"
+duration_seconds = 10
+cue = "Sit comfortably, breathe deeply and let your legs recover"
+
+
+[[exercise]]
+id = "fullbody_desk_warrior"
+name = "Desk Warrior (Seated Chest Opener)"
+muscle_groups = ["fullbody", "shoulders", "back"]
+intensity = 1
+duration_seconds = 30
+rest_seconds = 10
+hold_seconds = 15
+animation_ref = "fullbody_desk_warrior"
+research_source = "https://www.cdc.gov/niosh/topics/ergonomics/"
+verbal_cue = "Sit at edge of chair, interlace hands behind back, squeeze shoulder blades, lift chest and hold 15s"
+
+[[exercise.phases]]
+name = "inhale"
+duration_seconds = 3
+cue = "Sit tall at edge of chair, interlace fingers behind your lower back"
+
+[[exercise.phases]]
+name = "exhale"
+duration_seconds = 2
+cue = "Squeeze shoulder blades together and gently lift your chest toward the ceiling"
+
+[[exercise.phases]]
+name = "hold"
+duration_seconds = 15
+cue = "Hold, breathe naturally, feel the chest and shoulder stretch open"
+
+[[exercise.phases]]
+name = "rest"
+duration_seconds = 5
+cue = "Release hands, roll shoulders forward gently to release"
